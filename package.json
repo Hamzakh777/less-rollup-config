@@ -1,0 +1,17 @@
+{
+  "name": "rollup-config",
+  "version": "0.1.0",
+  "scripts": {
+    "compile:less": "rollup -c"
+  },
+  "dependencies": {
+    "@aleohq/ui": "^1.0.3"
+  },
+  "devDependencies": {
+    "less": "^4.1.1",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "rollup": "^2.41.2",
+    "rollup-plugin-postcss": "^4.0.0"
+  }
+}
